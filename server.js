@@ -14,7 +14,7 @@ const server=http.createServere((req ,res)=>{
             
 })
 
-const port=8080
+const port=8000
 server.listen(port,(err)=>{
     console.log(`server started at ${port}`)
 })
