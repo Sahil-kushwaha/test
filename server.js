@@ -11,7 +11,10 @@ const server=http.createServere((req ,res)=>{
            {
               res.end("sahil here");
            }
-            
+               
+           if(url=='/contact'){
+            res.end("Address:xyz\n mob: 342094");
+          }
 })
 
 const port=8000
