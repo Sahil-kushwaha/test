@@ -13,6 +13,11 @@ const server=http.createServer((req ,res)=>{
         {
            res.end("sahil here");
         }
+
+        if(url=='/skill')
+        {
+           res.end("your skills");
+        }
             
         if(url=='/contact'){
          res.end("Address:xyz\n mob: 342094");
